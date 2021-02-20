@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+/* font */
+/* color */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #393e46;
+  color: #eeeeee;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.header {
+  margin-bottom: 2em; }
+  .header h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffd369; }
+
+.file {
+  background-color: #222831;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em; }
+  .file p {
+    width: 200px; }
+  .file #upload {
+    display: none; }
+  .file .upload {
+    border: none;
+    border-radius: 15px;
+    background-color: #ffd369;
+    padding: 0.5em 0.8em;
+    font-family: "IBM Plex Sans", sans-serif; }
+
+.content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1em; }
+  .content .preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831; }
+    .content .preview img {
+      max-width: 500px;
+      max-height: 500px; }
+  .content .controls {
+    background-color: #222831;
+    padding: 1em; }
+  .content .control .reset {
+    border: none;
+    border-radius: 15px;
+    background-color: #eeeeee;
+    padding: 0.5em 0.8em;
+    font-family: "IBM Plex Sans", sans-serif;
+    width: 100%;
+    margin-top: 1em; }
+
+.hidden {
+  display: none; }
