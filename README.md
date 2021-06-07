@@ -1,7 +1,10 @@
+Vanilla (Pure) Javascript project for beginners.  
+Check more projects [here](https://github.com/coachoox/vanilla-js-projects).
+
 # Simple Image Effector
 
-Simple Image Effector made with Vanilla Javascript. [[Demo]](https://coach-oox.github.io/image-effector/)  
-🎈 Vanilla JS Project for Beginners.
+Simple image effector made with Vanilla Javascript.  
+[[Demo]](https://coachoox.github.io/js-image-effector/)  
 
 ## Preview
 
